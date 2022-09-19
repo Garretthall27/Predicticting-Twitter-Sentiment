@@ -1,0 +1,46 @@
+1. Business Understanding
+Use the tweets provided about Google and Apple products to predict whether
+the tweets are either positive, negative, and neutral.
+
+Business problem?
+- Build a predictive model that can predict that sentiment of a tweet.
+    Use this to identify tweets about products and use EDA to see what 
+    people are talking about the most. Not sure yet as to who the stakeholder
+    would be considering these are both Apple and Google products. Maybe 
+    Samsung can you use this to predict what people are saying about their
+    competitors products to better decisions about what to do with theirs.
+
+2. Data Preparation
+A dataset of over 9,000 tweets has been collected about Google and Apple products.
+No other data seems to be needed.
+
+3. Data Cleaning
+- Remove duplicates and handle null values
+- Map columns and column names to make them more readable
+- Cleaned tweets to remove hashtags and mentions and put them in their own 
+    separate columns 
+
+4. Data Analysis
+- How many of each sentiment are there?
+- What's the sentiment by company?
+- What's the sentiment by product?
+- Most frequent words and phrases?
+- Most frequent words and phrases by sentiment?
+- Most frequent words and phrases by snetiment and company?
+- Most frequent hashtags and mentions? is there any significance with these?
+
+5. Data Modeling
+- First simple model
+- Pipeline to clean and tokenize tweet and model it?
+- Use cross validation on model?
+
+6. Model Evaluation
+- Evaluate based on accuracy and F1 Score.
+- Which model performed best?
+- Does CountVectorizer or TfIdfVectorizer work better?
+- GridSearch best model for hyper parameters.
+
+7. Visualizations
+
+
+9. Presentation
