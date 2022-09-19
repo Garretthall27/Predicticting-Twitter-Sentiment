@@ -54,6 +54,5 @@ My final classification model for South by Southwest produced an accuracy score 
 ├── .gitignore
 ├── Cleaning_and_eda.ipynb
 ├── Modeling
-├── Presentation.pdf
 └── README.md
 ```
